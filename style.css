@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  background-image: url("food.png");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.95),
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.38),
+      rgba(0, 0, 0, 0)
+    ),
+    url("food.png");
+}
+.navbar-dark {
+  background-color: #161616;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+}
+.footer-index {
+  background: #080808;
+  margin: 0px auto;
+  padding: 10px 0px;
+  opacity: 0.8;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer {
+  background: #080808;
+  margin: 0px auto;
+  padding: 20px 0px;
+  opacity: 0.8;
+}
+.row-content {
+  margin: 0px auto;
+  padding: 100px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px;
+}
+.jumbotron {
+  margin: 0px auto;
+  padding: 70px 30px;
+  display: flex;
+
+  background: #141414;
+  color: floralwhite;
+}
+.menu-body {
+  max-width: 680px;
+  margin: 0 auto;
+  display: block;
+  color: rgb(255, 255, 255);
+}
+
+.menu-section {
+  margin-bottom: 80px;
+}
+
+.menu-section-title {
+  font-family: georgia;
+  font-size: 40px;
+  display: block;
+  font-weight: normal;
+  margin: 55px 0;
+  text-align: Center;
+}
+
+.menu-item {
+  margin: 35px 0;
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.menu-item-name {
+  font-family: helvetica;
+  font-weight: bold;
+  border-bottom: 2px dotted rgb(255, 255, 255);
+}
+
+.menu-item-description {
+  font-style: italic;
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+
+.menu-item-price {
+  float: right;
+  font-weight: bold;
+  font-family: arial;
+  margin-top: -22px;
+}
+.about {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 50px;
+  padding-right: 50px;
+}
